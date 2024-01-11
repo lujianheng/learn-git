@@ -159,5 +159,38 @@ doc/**/*.pdf
 cd # 进入用户目录
 cd .ssh
 ssh-keygen -t rsa -b 4096 # 生成ssh密钥
+# 私钥文件：id_rsa
+# 公钥文件：id_rsa.pub
+
 ```
+
+
+
+## 克隆仓库
+
+```
+git clone <git地址>
+```
+
+
+
+## 推送更新内容
+
+```
+git push <remote><branch>
+```
+
+
+
+## 拉取更新内容
+
+```
+git pull <remote>
+```
+
+
+
+
+
+
 
